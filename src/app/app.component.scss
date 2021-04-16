@@ -5,3 +5,28 @@
     height: 100%;
   }
 }
+
+.logo {
+  height: 80px;
+}
+
+.m {
+  margin-top: 34px;
+}
+
+.b > a {
+  color: #343a40;
+  border-radius: 10px;
+  border: 1px solid #343a40;
+  transition: 0.2s;
+}
+
+.b > a:hover {
+  color: #0a539c;
+  background-color: white;
+  box-shadow: 2px 2px 13px 1px rgb(145, 145, 145);
+}
+
+.b:last-child {
+  margin-top: 10px;
+}
